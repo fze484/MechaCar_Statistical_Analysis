@@ -7,7 +7,7 @@
 
 * Since the model has an R^2 of 0.71 and the overall p-value is lower than the significance level of 5%, we can say that this model is a good predictor of a car's fuel consumption. Additionally the intercept also has a p-value less than 5%, meaning that the variables used are strong predictors. 
 
-![lm2](../images/lm2.png).
+![lm2](../../images/lm2.png).
 
 ## Summary Statistics on Suspension Coils
 * Overall, the variance of the lots' weights does not exceed 100 pounds per square inch (62 lbs per square inch). However, on an individual lot basis, only lots 1 and 2 respect this rule (variance of 1 and 7, respectively), while lot 3 exceeds minimum alloted variance (170 pounds per square inch).
