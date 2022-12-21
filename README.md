@@ -12,6 +12,10 @@
 ## Summary Statistics on Suspension Coils
 * Overall, the variance of the lots' weights does not exceed 100 pounds per square inch (62 lbs per square inch). However, on an individual lot basis, only lots 1 and 2 respect this rule (variance of 1 and 7, respectively), while lot 3 exceeds minimum alloted variance (170 pounds per square inch).
 
+![image_name](images/lot_summary.png)
+
+![image_name](images/total_summary.png)
+
 ## T-Tests on Suspension Coils
 
 T-tests are used to test the following hypotheses:
@@ -22,17 +26,25 @@ T-tests are used to test the following hypotheses:
 
 Assuming our significance level was the common 0.05 percent, our p-value is above our significance level (0.06). Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the population and sample means are statistically similar.
 
+![image_name](images/t_test1.png)
+
 ### Lot 1 t-test, comparing all lots' suspension coil weights to the population mean of 1500 lbs per sq inch.
 
 Assuming our significance level was the common 0.05 percent, our p-value is above our significance level (1). Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the population and sample means are statistically similar.
+
+![image_name](images/t_test2.png)
 
 ### Lot 2 t-test, comparing all lots' suspension coil weights to the population mean of 1500 lbs per sq inch.
 
 Assuming our significance level was the common 0.05 percent, our p-value is above our significance level (0.60). Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the population and sample means are statistically similar.
 
+![image_name](images/t_test3.png)
+
 ### Lot 3 t-test, comparing all lots' suspension coil weights to the population mean of 1500 lbs per sq inch.
 
 Assuming our significance level was the common 0.05 percent, our p-value is less than our significance level (0.04). Therefore, we have sufficient evidence to reject the null hypothesis, and we would state that the population and sample means are not statistically similar.
+
+![image_name](images/t_test4.png)
 
 ## Study Design: MechaCar vs Competition
 
